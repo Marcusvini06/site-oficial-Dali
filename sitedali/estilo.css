@@ -1,0 +1,25 @@
+
+#fundo{
+  background: #6930F5  
+}
+
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 00px;
+    padding: 20px;
+    display:block;
+    background-color:#fff;
+}
+
+#h2{
+    font: 2.2em sans-serif;
+    margin: 10px auto;
+    padding: 02px;
+    color: #FF5B6B;
+    
+}
+
+.menu{
+    top: auto;
+    text-align: center;
+}
