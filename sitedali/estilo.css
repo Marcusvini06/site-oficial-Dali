@@ -23,3 +23,69 @@ strong{
     top: auto;
     text-align: center;
 }
+
+#h1 {
+   color: #fff; 
+   text-align: center;
+   font-family:"Gill Sans", sans-serif;;
+}
+
+img{
+    
+    left: 100px;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    
+}
+
+h4{
+    top:auto;
+    color: #fff;
+    text-align: center;
+    margin: 1em;
+}
+
+.button1 {
+  border: none;
+  color:#ffffff;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button{
+    background-color: #FF7E74 ;
+  color: white;
+  
+}
+
+#butãodali{
+   text-align: center;
+}
+
+#img2 {
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    background-position: center;
+}
+
+.conteudo{
+    block-size: auto;
+}
+
+#msg {
+    color: #fff;
+}
+
+#dali{
+    color: #FF5B6B;
+}
