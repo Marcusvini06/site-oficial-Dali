@@ -3,12 +3,23 @@
   background: #6930F5  
 }
 
-strong{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 00px;
+#dali{
+    color: #FF5B6B;
+    text-align: left;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#menu{
+    color: #FF5B6B;
+    margin: 15px;
+}
+
+a {
+    color: #FF5B6B;
+    text-decoration: none;
     padding: 20px;
-    display:block;
-    background-color:#fff;
 }
 
 #h2{
@@ -19,15 +30,49 @@ strong{
     
 }
 
-.menu{
-    top: auto;
-    text-align: center;
+
+#butãocadastro {
+    text-align: right;
+    margin: 5px;
+    top: 100px;
+    
 }
 
-#h1 {
-   color: #fff; 
-   text-align: center;
-   font-family:"Gill Sans", sans-serif;;
+.button1 {
+    border: none;
+    color:#ffffff;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-style: solid ;
+    border-color: #120F82;
+    border-width: 1px 1px 5px 4px; /* 25px top, 10px right, 4px bottom and 35px left */
+     
+    
+    
+}
+  
+.button{
+    background-color: #FF7E74 ;
+  color: white;
+  
+}
+
+p.inset {border-style: inset;}
+
+.carrosel{
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+#h1{
+    color: #FF5B6B;
 }
 
 img{
@@ -39,14 +84,15 @@ img{
     
 }
 
-h4{
+#h4{
     top:auto;
     color: #fff;
     text-align: center;
     margin: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.button1 {
+.button2 {
   border: none;
   color:#ffffff;
   padding: 12px 30px;
@@ -57,6 +103,10 @@ h4{
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border-style: solid ;
+  border-color: #120F82;
+  border-width: 04px 1px 1px 4px; /* 25px top, 10px right, 4px bottom and 35px left */
+   
   
 }
 
@@ -72,20 +122,99 @@ h4{
 
 #img2 {
     align-items: center;
-    width: 1000px;
-    height: 300px;
+    width: 100%;
+    height: 60%;
     text-align: center;
     background-position: center;
+    margin: 10px;
 }
 
-.conteudo{
-    block-size: auto;
-}
+
 
 #msg {
     color: #fff;
+    text-align: left;
+    margin: 15px;
+    padding: 05px;
 }
 
 #dali{
     color: #FF5B6B;
+}
+
+.mdqf{
+    color:#FF5B6B;
+
+}
+
+#carroselh2{
+  color: #fff;
+  padding: 05px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+
+.textooquefazemos{
+    color: #fff;
+    text-align: left;
+
+}
+
+.coluna6{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Dt {
+   padding: 07px; 
+   text-align: left; 
+   border-style: inset; 
+   color: #ffffff; 
+   border-style: solid ;
+   border-color: #120F82;
+   border-width: 03px 03px 15px 10px; /* 25px top, 10px right, 4px bottom and 35px left */
+   margin: 15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#saibamais{
+   text-align: center;
+   color: #FF5B6B;
+   /*  border-style: solid ;
+   border-width: 03px 03px 0px 0px; /* 25px top, 10px right, 4px bottom and 35px left */
+     
+}
+
+.imgdebloco{
+    width: 20px;
+    height: 30px;
+    text-align: right;
+    margin: 15px;
+}
+
+.button2 {
+  border: none;
+  color:#ffffff;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 5px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: solid ;
+  border-color: #120F82;
+  border-width: 04px 1px 1px 4px; /* 25px top, 10px right, 4px bottom and 35px left */
+   
+}
+
+#img3{
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    background-position: center;
+    margin: 10px;
 }
