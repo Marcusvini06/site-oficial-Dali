@@ -50,9 +50,10 @@ a {
     transition-duration: 0.4s;
     cursor: pointer;
     border-style: solid ;
-    border-color: #120F82;
-    border-width: 1px 1px 5px 4px; /* 25px top, 10px right, 4px bottom and 35px left */
-     
+    border:1px solid #120F82;
+    box-shadow: -08px 3px #120F82;
+    transform: scale(1.02);
+    cursor: pointer;
     
     
 }
@@ -69,6 +70,7 @@ p.inset {border-style: inset;}
     padding: 100px;
     text-align: center;
     color: #fff;
+    font-family: 'DM Sans';
 }
 
 #h1{
@@ -103,10 +105,8 @@ img{
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-style: solid ;
-  border-color: #120F82;
-  border-width: 04px 1px 1px 4px; /* 25px top, 10px right, 4px bottom and 35px left */
-   
+  border:1px solid #120F82;
+  box-shadow: -10px 3px #120F82;
   
 }
 
@@ -136,10 +136,12 @@ img{
     text-align: left;
     margin: 15px;
     padding: 05px;
+    
 }
 
 #dali{
     color: #FF5B6B;
+    padding: 10px;
 }
 
 .mdqf{
@@ -157,7 +159,7 @@ img{
 .textooquefazemos{
     color: #fff;
     text-align: left;
-
+    
 }
 
 .coluna6{
@@ -203,10 +205,8 @@ img{
   margin: 5px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 4px;
-  border-style: solid ;
-  border-color: #120F82;
-  border-width: 04px 1px 1px 4px; /* 25px top, 10px right, 4px bottom and 35px left */
+  border:1px solid #120F82;
+  box-shadow: -08px 3px #120F82;
    
 }
 
@@ -217,4 +217,82 @@ img{
     text-align: center;
     background-position: center;
     margin: 10px;
+    padding: 10px;
 }
+
+
+.imagemdefundo{
+    background-image: url("imagens/background.png") ;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cnt{
+    color: #fff;
+    font-family: 'DM Sans';
+    text-align: center;
+    margin-top: 150px;
+    padding: 10px;
+    font-family: 'DM Sans';
+    
+}
+
+
+
+#equipe1 {
+    margin: 10px;
+}
+
+#equipe1:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.card {
+    border: 2px solid #120F82;
+    height: 100px;
+    background: transparent;
+    border-radius: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-bottom: none;
+    font-family: 'DM Sans';
+}
+
+.foto {
+    background: #120F82;
+    height: 200px;
+    border-radius: 0px;
+}
+
+.nomes{
+    margin: 05px;
+    text-align: left;
+    color:#120F82
+
+}
+
+.funcao{
+    color: #120F82;
+    text-align: left;
+    margin: 03px;
+    font-family: 'DM Sans';
+    
+}
+
+.imagemgrupo{
+  width: 150px;
+  height: 200px;
+  padding: 05px;
+}
+
+.redesocial{
+    width: 30px;
+    height: 35px;
+    text-align: right;
+    
+}
+
